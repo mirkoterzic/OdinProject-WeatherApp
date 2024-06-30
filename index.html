@@ -6,5 +6,20 @@
     <link rel="stylesheet" href="style.css" />
     <title>Odin - Weather App</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <form id="locationForm">
+        <input
+          type="text"
+          placeholder="Enter Location"
+          id="locationInput"
+          required
+        />
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="loading" style="display: none"></div>
+      <div id="weatherInfo"></div>
+    </div>
+  </body>
 </html>
