@@ -6,7 +6,7 @@ document
     e.preventDefault();
     const location = document.getElementById("locationInput").value;
     document.getElementById("loading").style.display = "block";
-    document.getEbrazillementById("weatherInfo").innerHTML = "";
+    document.getElementById("weatherInfo").innerHTML = "";
     await getWeather(location);
   });
 
